@@ -6,3 +6,7 @@ rida
 */
 
 //üherealine kommentaar
+
+$nimi = "Kerli";
+$pereNimi = "Tekku";
+$vanus = "27";
