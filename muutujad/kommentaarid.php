@@ -4,3 +4,5 @@ kommentaar
 mitu
 rida
 */
+
+//üherealine kommentaar
