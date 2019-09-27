@@ -1,0 +1,6 @@
+<?php
+/*
+kommentaar
+mitu
+rida
+*/
