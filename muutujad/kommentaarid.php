@@ -27,10 +27,10 @@ echo "&nbsp;\_____/<br>";
 echo "&nbsp;&nbsp;(@,@)<br>";
 echo "&nbsp;&nbsp;&nbsp;((|&nbsp;|))<br>";
 echo "__,,_,,__<br>";
-
-echo "&nbsp;<\&nbsp;|&nbsp;/<br>";
+"<br>"
+echo "&nbsp;\&nbsp;|&nbsp;/<br>";
 echo "@&nbsp;&nbsp;@<br>";
-echo "&nbsp;&nbsp;*&nbsp;&nbsp;<br>";
-echo `&nbsp;\"""/`;
+echo "&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;<br>";
+echo "\```/";
 
 ?>
