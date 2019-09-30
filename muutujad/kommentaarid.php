@@ -25,7 +25,7 @@ echo "\"It`s all right, Ma (I`m Only Bleeding)\"-Bob Dylan<br>";
 
 echo "&nbsp;\_____/<br>";
 echo "&nbsp;&nbsp;(@,@)<br>";
-echo "&nbsp;&nbsp;((|&nbsp;|))<br>";
+echo "&nbsp;&nbsp;&nbsp;((|&nbsp;|))<br>";
 echo "__,,_,,__<br>";
 
 
