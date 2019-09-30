@@ -1,6 +1,5 @@
 <?php
-echo "Hello!";
-"<br>"
+
 /*
 kommentaar
 mitu
