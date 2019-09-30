@@ -14,9 +14,9 @@ $vanus = 27;
 $nimi = $eNimi." ".$pereNimi;
 $kaal = 55.5;
 
-echo "Tere ".$nimi."!<br>";
-echo "Sinu vanus: ".$vanus."<br>";
-echo "Sinu kaal: ".$kaal."<br>";
+echo "Tere $nimi! <br>";
+echo "Sinu vanus: $vanus <br>";
+echo "Sinu kaal: $kaal <br>";
 
 
 
