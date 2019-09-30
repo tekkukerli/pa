@@ -27,7 +27,8 @@ echo "&nbsp;\_____/<br>";
 echo "&nbsp;&nbsp;(@,@)<br>";
 echo "&nbsp;&nbsp;&nbsp;((|&nbsp;|))<br>";
 echo "__,,_,,__<br>";
-echo "<br>"
+//joonistus
+
 echo "&nbsp;\&nbsp;|&nbsp;/<br>";
 echo "@&nbsp;@<br>";
 echo "&nbsp;&nbsp;*&nbsp;&nbsp;<br>";
