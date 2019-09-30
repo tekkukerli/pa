@@ -1,4 +1,6 @@
 <?php
+echo "Hello!";
+
 /*
 kommentaar
 mitu
@@ -10,3 +12,6 @@ rida
 $nimi = "Kerli";
 $pereNimi = "Tekku";
 $vanus = "27";
+
+
+?>
