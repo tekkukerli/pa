@@ -23,9 +23,9 @@ echo "Sinu kaal: $kaal<br>";
 echo "$nimi on $vanus aastat vana ja kaalub $kaal kg<br>";
 echo "\"It`s all right, Ma (I`m Only Bleeding)\"-Bob Dylan<br>";
 
-echo "&nbsp\_____/<br>";
-echo "&nbsp&nbsp(@,@)<br>";
-echo "&nbsp((|&nbsp|))<br>";
+echo "&nbsp;\_____/<br>";
+echo "&nbsp;&nbsp;(@,@)<br>";
+echo "&nbsp;&nbsp;((|&nbsp;|))<br>";
 echo "__,,_,,__<br>";
 
 
