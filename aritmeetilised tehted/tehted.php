@@ -68,10 +68,14 @@ echo
     <td>".$jagam."</td>
   </tr>
   <tr>
-    <td>x % y</td>
-    <td>Jääk</td>
+    <td rowspan='2' >x % y</td>
+    <td rowspan='2' >Jääk</td>
     <td>".$x." % ".$y."</td>
     <td>".$jaak."</td>
+  </tr>
+  <tr>
+    <td>5 % 2</td>  
+    <td>".(5 % 2)."</td>  <!--jooksvalt arvutab-->
   </tr>
 </tbody>
 </table>
