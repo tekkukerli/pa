@@ -81,4 +81,8 @@ echo
 </table>
 </html>";
 
+
+//muutuja väärtuste vormindamine
+$nimi = 'Mari';
+printf('Tere %s', $nimi);
 ?>
