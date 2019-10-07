@@ -139,8 +139,8 @@ echo "<br>";
 
 $r = 10;
 $d = 20;
-$C = 2 * π * $r;
-$pindala = M_PI * POWER($r, 2);
+$C = 2 * pi() * $r;
+$pindala = pi() * $r * $r;
 echo "<br>";
 
 $ümbermõõt = sprintf('Ringi ümbermõõt on %d cm.', $C);
