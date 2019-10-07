@@ -8,6 +8,7 @@ $korru = $x * $y;
 $jagam = $x / $y;
 $jaak = $x % $y;
 echo "Vastused: $liitm, $lahut, $korru, $jagam, $jaak<br>"; //vastuste kuvamine
+echo "<br>";
 
 //tabeli väljastamine
 echo
@@ -85,4 +86,54 @@ echo
 //muutuja väärtuste vormindamine
 $nimi = 'Mari';
 printf('Tere %s', $nimi);
+echo "<br>";
+
+//muutuja väärtuste vormindamine, vanus tekstina
+$nimi = 'Mari';
+$vanus = 27;
+printf('%s on %s aastane.', $nimi, $vanus);
+echo "<br>";
+
+//muutuja väärtuste vormindamine, vanus arvuna esitatult
+$nimi = 'Mari';
+$vanus = 27;
+printf('%s on %d aastane.', $nimi, $vanus);
+echo "<br>";
+
+$i = 7.26;
+$j = 2.369;
+$k = $i / $j;
+printf('Vastus: %0.3f', $k);
+echo "<br>";
+
+$i = 7.26;
+$j = 2.369;
+$k = $i / $j;
+$vormindatud = sprintf('Vastuse: %0.3f', $k);
+echo $vormindatud;
+echo "<br>";
+echo "<br>";
+//Ülesanne 2 Kerli 07.10.2019
+
+$x = 9;
+$y = 3;
+$liitm = $x + $y; //fikseeritakse valem
+$lahut = $x - $y;
+$korru = $x * $y;
+$jagam = $x / $y;
+$jaak = $x % $y;
+
+echo "Vastused: $liitm, $lahut, $korru, $jagam, $jaak<br>"; //vastuste kuvamine
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+$celcius = 15;
+$fahrenheit = (9/5) * $celcius + 32;
+$tulemus = sprintf('Celcius %0.2f kraadi on %0.2f Fahrenheit kraadi.', $celcius , $fahrenheit);
+echo $tulemus;
+
+
+
+
 ?>
