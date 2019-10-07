@@ -130,10 +130,24 @@ echo "<br>";
 
 $celcius = 15;
 $fahrenheit = (9/5) * $celcius + 32;
-$tulemus = sprintf('Celcius %0.2f kraadi on %0.2f Fahrenheit kraadi.', $celcius , $fahrenheit);
+$tulemus = sprintf('Celcius %0.2f kraadi on %0.2f Fahrenheit kraadi. ', $celcius , $fahrenheit);
 echo $tulemus;
+echo "<br>";
+echo "<br>";
 
+//ringi raadius
 
+$r = 10;
+$d = 20;
+$C = 2 * π * $r;
+$pindala = M_PI * POWER($r, 2);
+echo "<br>";
 
+$ümbermõõt = sprintf('Ringi ümbermõõt on %d cm.', $C);
+echo "<br>";
+$rpindala = sprintf('Ringi pindala on %d cm.', $pindala);
+
+echo $ümbermõõt;
+echo $rpindala;
 
 ?>
