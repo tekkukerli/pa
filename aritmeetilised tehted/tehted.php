@@ -109,7 +109,7 @@ echo "<br>";
 $i = 7.26;
 $j = 2.369;
 $k = $i / $j;
-$vormindatud = sprintf('Vastuse: %0.3f', $k);
+$vormindatud = sprintf('Vastus: %0.3f', $k);
 echo $vormindatud;
 echo "<br>";
 echo "<br>";
@@ -130,24 +130,29 @@ echo "<br>";
 
 $celcius = 15;
 $fahrenheit = (9/5) * $celcius + 32;
-$tulemus = sprintf('Celcius %0.2f kraadi on %0.2f Fahrenheit kraadi. ', $celcius , $fahrenheit);
+$tulemus = sprintf('Celcius %.2d kraadi on %.2f Fahrenheit kraadi. ', $celcius , $fahrenheit);
 echo $tulemus;
 echo "<br>";
 echo "<br>";
 
 //ringi raadius
 
+//omista väärtused
 $r = 10;
 $d = 20;
-$C = 2 * pi() * $r;
-$pindala = pi() * $r * $r;
+$C = pi() * ($r * 2);
+$pindala = pi() * ($r * $r);
 echo "<br>";
 
-$ümbermõõt = sprintf('Ringi ümbermõõt on %d cm.', $C);
+$ümbermõõt = sprintf('Ringi ümbermõõt on %d cm.', $C); //%d ümardatud täisarvuni
 echo "<br>";
-$rpindala = sprintf('Ringi pindala on %d cm.', $pindala);
-
+$rpindala = sprintf('Ringi pindala on %.2f cm.', $pindala); //.2f komakohad 2 tk
+// väljasta tulemus
 echo $ümbermõõt;
 echo $rpindala;
+
+//TINGIMUSLAUSED
+
+
 
 ?>
