@@ -40,30 +40,31 @@ echo '<hr>';
 $user = 'admin';
 echo $user == 'admin' ? 'Tere admin' : 'Tere külaline';
 echo '<hr>';
-/*
+
 //ÜLESANNE 4.1
+
 $arv1 = 10;
 $arv2 = 5;
 $tehe = $arv1 / $arv2;
 
-if ($arv2 == 0) {
-    echo 'Nulliga ei saa jagada<br>';
-  } else {
-    echo $arv1 ; //POOLELI!!!!!
-  }
-*/
-//4.2
+if($arv2 == 0) {
+  echo 'Nulliga ei saa jagada<br>';
+} else {
+  echo $arv1.' / '.$arv2.' = '.$tehe.'<br>';
+}
 echo '<hr>';
+
+//4.4
+
 $hetkeAasta = 2019;
 $synniAasta = 2001;
 $vanus = $hetkeAasta - $synniAasta;
-
 $jaak = $vanus % 5;
 
-if($jaak == 0){
-    echo 'Sel aastal on juubel!<br>';
+if($jaak == 0) {
+  echo 'Sel aastal on juubel!<br>';
 } else {
-    echo 'Veel juubelit ei ole<br>';
+  echo 'Veel juubelit ei ole<br>';
 }
 
 
