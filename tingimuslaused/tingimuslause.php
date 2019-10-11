@@ -65,6 +65,7 @@ if ($arv1 < $arv2) {
 } else {
     echo 'Arvud on võrdsed';
 }
+echo '<hr>';
 
 //4.4
 
