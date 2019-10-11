@@ -125,7 +125,30 @@ if ($r = 'eestlane') {
 } else {
     echo 'Sa ei ole eestlane';
 }
+echo '<hr>';
 
+//täringud
+
+//defineerime muutuja
+$number = rand(1, 7);
+
+//switch kontrollimiseks
+switch($number) {
+    case 1: echo 'Number on 1';
+    break;
+    case 2: echo 'Number on 2';
+    break;
+    case 3: echo 'Number on 3';
+    break;
+    case 4: echo 'Number on 4';
+    break;
+    case 5: echo 'Number on 5';
+    break;
+    case 6: echo 'Number on 6';
+    break;
+    default: echo 'midagi läks valesti';
+    break;
+}
 
 
 
