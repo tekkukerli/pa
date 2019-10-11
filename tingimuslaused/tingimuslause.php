@@ -55,8 +55,8 @@ if($arv2 == 0) {
 echo '<hr>';
 
 //4.3
-$arv1 = 4;
-$arv2 = 5;
+$arv1 = 7;
+$arv2 = 7;
 
 if ($arv1 < $arv2) {
     echo $arv1.' on väiksem kui '.$arv2.'<br>';
@@ -67,7 +67,7 @@ if ($arv1 < $arv2) {
 }
 echo '<hr>';
 
-//4.4
+//4.4 juubel
 
 $hetkeAasta = 2019;
 $synniAasta = 2001;
@@ -79,7 +79,23 @@ if($jaak == 0) {
 } else {
   echo 'Veel juubelit ei ole<br>';
 }
+echo '<hr>';
 
+//4.5 arvamismäng
+
+$arvatav = 8;
+$pakutud = 9;
+
+if ($pakutud == $arvatav) {
+    echo 'Arvasid ära!';
+} else if ($pakutud < $arvatav) {
+    echo 'Liiga väike';
+} else if ($pakutud > $arvatav) {
+    echo 'Liiga suur';
+} else {
+    echo 'Paku number';
+}
+echo '<hr>';
 
 
 
