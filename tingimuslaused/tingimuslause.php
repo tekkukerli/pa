@@ -41,7 +41,7 @@ $user = 'admin';
 echo $user == 'admin' ? 'Tere admin' : 'Tere külaline';
 echo '<hr>';
 
-//ÜLESANNE 4.1
+//ÜLESANNE 4.2 jagamine
 
 $arv1 = 10;
 $arv2 = 5;
@@ -54,7 +54,7 @@ if($arv2 == 0) {
 }
 echo '<hr>';
 
-//4.3
+//4.3 suurem/väiksem
 $arv1 = 7;
 $arv2 = 7;
 
@@ -84,7 +84,7 @@ echo '<hr>';
 //4.5 arvamismäng
 
 $arvatav = 8;
-$pakutud = 9;
+$pakutud = 11;
 
 if ($pakutud == $arvatav) {
     echo 'Arvasid ära!';
@@ -96,6 +96,27 @@ if ($pakutud == $arvatav) {
     echo 'Paku number';
 }
 echo '<hr>';
+
+//4.5 sõjavägi
+
+$rahvus = 'eestlane';
+$vanus = 18;
+$haridus = 9;
+
+$r;
+$v;
+$h;
+
+if ($r = $rahvus) {
+    echo 'Rahvus korras';
+} else if ($v >= $vanus) {
+    echo 'Vanus sobiv';
+} else if ($h >= $haridus) {
+    echo 'Haridus sobiv';
+} else {
+    echo 'Ei ole sobiv kandidaat';
+}
+
 
 
 
