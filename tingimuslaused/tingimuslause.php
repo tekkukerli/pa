@@ -83,38 +83,47 @@ echo '<hr>';
 
 //4.5 arvamismäng
 
-$arvatav = 8;
-$pakutud = 11;
+$arvatav = 8; //äraarvatav number
+$pakutud = 1; //kasutaja pakutud number
 
-if ($pakutud == $arvatav) {
+if ($pakutud == $arvatav) { //kui arvas õigesti
     echo 'Arvasid ära!';
-} else if ($pakutud < $arvatav) {
-    echo 'Liiga väike';
-} else if ($pakutud > $arvatav) {
-    echo 'Liiga suur';
 } else {
-    echo 'Paku number';
+    $vahemik = abs($pakutud - $arvatav);
+    if ($vahemik <= 5) {
+        echo 'Veel ei arvanud ära, aga oled lähedal<br>';
+    }
+    if ($pakutud > $arvatav) {
+        echo $pakutud.' on suurem kui ette antud arv';
+    }
+    if ($pakutud < $arvatav) {
+        echo $pakutud.' on väiksem kui ette antud arv';
+    }
 }
+
+
 echo '<hr>';
 
 //4.5 sõjavägi
 
-$rahvus = 'eestlane';
-$vanus = 18;
-$haridus = 9;
+$r = 'venelane';
+$v = 19;
+$h = 'algharidus';
 
-$r;
-$v;
-$h;
-
-if ($r = $rahvus) {
-    echo 'Rahvus korras';
-} else if ($v >= $vanus) {
-    echo 'Vanus sobiv';
-} else if ($h >= $haridus) {
-    echo 'Haridus sobiv';
+if ($r = 'eestlane') {
+    echo 'Rahvus korras<br>';
+    if ($v >= 18) {
+        echo 'Vanus sobib<br>';
+        if ($h = 'pohiharidus' or $h = 'kutseharidus' or $h = 'korgharidus' or $h = 'keskharidus') {
+            echo 'Haridus sobiv. Oled vastu võetud';
+        } else {
+            echo 'Ei ole sobiv haridus';
+        }
+    } else {
+        echo 'Oled liiga noor';
+    }
 } else {
-    echo 'Ei ole sobiv kandidaat';
+    echo 'Sa ei ole eestlane';
 }
 
 
