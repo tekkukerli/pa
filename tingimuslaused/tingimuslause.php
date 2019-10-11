@@ -54,6 +54,18 @@ if($arv2 == 0) {
 }
 echo '<hr>';
 
+//4.3
+$arv1 = 4;
+$arv2 = 5;
+
+if ($arv1 < $arv2) {
+    echo $arv1.' on väiksem kui '.$arv2.'<br>';
+} else if ($arv1 > $arv2) {
+    echo $arv1.' on suurem kui '.$arv2.'<br>';
+} else {
+    echo 'Arvud on võrdsed';
+}
+
 //4.4
 
 $hetkeAasta = 2019;
