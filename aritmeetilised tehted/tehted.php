@@ -1,12 +1,15 @@
 <?php
 //aritmeetilised operaatorid
+//muutujate defineerimine
 $x = 8;
 $y = 2;
-$liitm = $x + $y; //fikseeritakse valem
+//aritmeetilised operaatorid
+$liitm = $x + $y;   //fikseeritakse valem
 $lahut = $x - $y;
 $korru = $x * $y;
 $jagam = $x / $y;
 $jaak = $x % $y;
+
 echo "Vastused: $liitm, $lahut, $korru, $jagam, $jaak<br>"; //vastuste kuvamine
 echo "<br>";
 
@@ -34,15 +37,16 @@ echo
 
 
 <table>
+ <!-- tabeli päis -->
   <thead>
     <tr>
-      <td>Operaator</td>
-      <td>Nimetus</td>
-      <td>Näide</td>
-      <td>Tulemus</td>
+      <th>Operaator</th>
+      <th>Nimetus</th>
+      <th>Näide</th>
+      <th>Tulemus</th>
     </tr>
 </thead>
-
+  <!-- tabeli keha -->
 <tbody>
   <tr>
     <td>x + y</td>
@@ -113,6 +117,7 @@ $vormindatud = sprintf('Vastus: %0.3f', $k);
 echo $vormindatud;
 echo "<br>";
 echo "<br>";
+
 //Ülesanne 2 Kerli 07.10.2019
 
 $x = 9;
@@ -126,33 +131,28 @@ $jaak = $x % $y;
 echo "Vastused: $liitm, $lahut, $korru, $jagam, $jaak<br>"; //vastuste kuvamine
 echo "<br>";
 echo "<br>";
-echo "<br>";
 
+//temperatuuri arvutamine
+//defineeri muutujad ja omista väärtused
 $celcius = 15;
 $fahrenheit = (9/5) * $celcius + 32;
-$tulemus = sprintf('Celcius %.2d kraadi on %.2f Fahrenheit kraadi. ', $celcius , $fahrenheit);
-echo $tulemus;
+//väljasta tulemus täpsusega 2 kohta pärast koma
+printf('Celcius %.2d kraadi on %.2f Fahrenheit kraadi. ', $celcius , $fahrenheit);
+
 echo "<br>";
 echo "<br>";
 
 //ringi raadius
 
 //omista väärtused
-$r = 10;
-$d = 20;
+$r = 5;
+//arvutame ümbermõõt ja pindala
 $C = pi() * ($r * 2);
 $pindala = pi() * ($r * $r);
 echo "<br>";
-
-$ümbermõõt = sprintf('Ringi ümbermõõt on %d cm.', $C); //%d ümardatud täisarvuni
+//väljastamine
+printf('Ringi ümbermõõt on %d cm. ', $C); //%d ümardatud täisarvuni
 echo "<br>";
-$rpindala = sprintf('Ringi pindala on %.2f cm.', $pindala); //.2f komakohad 2 tk
-// väljasta tulemus
-echo $ümbermõõt;
-echo $rpindala;
-
-//TINGIMUSLAUSED
-
-
+printf('Ringi pindala on %.2f cm.', $pindala); //.2f komakohad 2 tk
 
 ?>
