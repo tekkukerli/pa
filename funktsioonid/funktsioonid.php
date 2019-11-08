@@ -1,5 +1,11 @@
 <?php
 /*
+	PHP - Funktsioonid
+	Kerli Tekku
+	Tartu Kutsehariduskeskus
+	08.11.2019
+*/
+/*
 function tervita(){
     return "Tere kylaline";
 }
@@ -41,12 +47,38 @@ echo "<br>";
 $arvud1 = array(11,21,32,43,54);
 $arvud2 = array(60,72,42,34,45);
 echo max(max($arvud1), max($arvud2));
-*/
+
 $arv = 3.456;
 
 echo round($arv);
+echo "<br>";
 echo round($arv,2);
+echo "<br>";
+echo ceil($arv);
+echo "<br>";
+echo floor($arv);
+echo rand(); //juhuslik arv
+echo "<br>";
+echo mt_rand();  //suurem juhuslik arv
+echo "<br>";
+echo rand(1,10);  //vahemikus juhuslik arv
+echo "<br>";
+echo pow(5,2);  //astendamine
+echo "<br>";
+echo pow(5,3);
+echo "<br>";
+echo sqrt(9); //ruutjuur
+echo "<br>";
+echo pi();  //pi
+echo "<br>";
+echo cos(0.8);
+echo "<br>";
+echo deg2rad(30);
+*/
 
-
+//Ül 7
+$arv = 60;
+$arv1 = 0;
+echo ($arv / $arv1);
 
 ?>
