@@ -77,8 +77,34 @@ echo deg2rad(30);
 */
 
 //Ül 7
-$arv = 60;
-$arv1 = 0;
-echo ($arv / $arv1);
+//jagamine
+function jaga($arv, $arv1){
+    if ($arv1 < 1){
+        return "Arv ei tohi olla väiksem kui 1";
+    } else {
+        return $arv / $arv1;
+    }
+}
+echo jaga (60,3);
+echo "<br>";
+echo jaga (60,0);
+echo "<br>";
+
+//täringumäng
+
+function roll(){
+    return rand(1,6);
+}
+echo roll();
+echo "<br>";
+
+//kolmnurk
+function arvuta ($a, $b){
+    $c = round(sqrt(pow($a,2) + pow($b,2)));
+    return "Kolmas külg on " .$c.".";
+}
+echo arvuta(5,3);
+
+
 
 ?>
