@@ -1,5 +1,5 @@
 <?php
-/*
+
 $nimed = array('mari', 'kati', 'juhan', 'miku', 'uku');
 $vanused = array(15, 23, 32, 28, 18);
 
@@ -107,7 +107,7 @@ echo "<hr>";
 
 echo max($pallivisked);
 echo "<hr>";
-*/
+
 
 $tulemused = array('Martin'=>33, 'Hardi'=>32, 'Juhan'=>27, 'Tiina'=>11, 'Sirje'=>15, 'Kaie'=>28);
 
